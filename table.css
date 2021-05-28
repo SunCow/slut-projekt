@@ -83,3 +83,39 @@ caption {
 .head-body-foot tbody:hover {
     background-color: azure;
 }
+
+.scroll-bar {
+    overflow-x: auto;
+}
+
+.table-image {
+    margin: 0 auto;
+}
+
+
+table.GeneratedTable {
+    width: 100%;
+    background-color: #ffffff;
+    border-collapse: collapse;
+    border-width: 2px;
+    border-color: #ffcc00;
+    border-style: solid;
+    color: #000000;
+  }
+  
+  table.GeneratedTable td, table.GeneratedTable th {
+    border-width: 2px;
+    border-color: #4d400c;
+    border-style: solid;
+    padding: 3px;
+  }
+  
+  table.GeneratedTable thead {
+    background-color: #15bfc5;
+  }
+
+  img {
+      max-height: 400px;
+      max-width: 600px;
+  }
+  
