@@ -41,7 +41,7 @@ caption {
 }
     
 .table-simple th {
-    background-color: darkgrey;
+    background-color: rgb(121, 83, 83);
     color: white;    
 }
     
@@ -59,7 +59,7 @@ caption {
 }
 
 .head-body-foot thead {
-    color: purple;
+    color: rgb(88, 1, 88);
     background-color: rgb(243, 136, 13);
 }
     
