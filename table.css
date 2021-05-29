@@ -119,3 +119,22 @@ table.GeneratedTable {
       max-width: 600px;
   }
   
+  @media screen and (max-width: 992px) {
+    body {
+      background-color: rgba(13, 29, 255, 0.384);
+    }
+  }
+
+  
+  
+  @media screen and (max-width: 500px) {
+    body {
+      background-color:rgba(195, 197, 59, 0.863);
+    }
+  }
+  
+  @media screen and (max-width: 300px) {
+    body {
+      background-color: rgba(255, 255, 255, 0.541);
+    }
+  }
