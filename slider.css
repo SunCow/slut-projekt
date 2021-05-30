@@ -1,15 +1,4 @@
-.div-content {
 
-    margin-left: auto;
-    
-    margin-right: auto;
-    
-    max-width: 50%;
-    
-    position: relative;
-
-    
-    }
     
     .slider-button {
     
@@ -67,7 +56,7 @@
 
 
 img {
-    height: 450px;
+    max-height: 430px;
 }
 
 h1 {
@@ -110,6 +99,17 @@ h1 {
     body {
       background-color: rgba(13, 29, 255, 0.384);
     }
+    .div-content {
+
+      margin-left: auto;
+      
+      margin-right: auto;
+      
+      max-width: 50%;
+      
+      position: relative;
+      }
+      
   }
 
   
@@ -118,10 +118,32 @@ h1 {
     body {
       background-color:rgba(195, 197, 59, 0.863);
     }
+    .div-content {
+
+      margin-left: auto;
+      
+      margin-right: auto;
+      
+      max-width: 65%;
+      
+      position: relative;
+      }
+      
   }
   
   @media screen and (max-width: 300px) {
     body {
       background-color: rgba(255, 255, 255, 0.541);
     }
+    .div-content {
+
+      margin-left: auto;
+      
+      margin-right: auto;
+      
+      max-width: 80%;
+      
+      position: relative;
+      }
+      
   }
