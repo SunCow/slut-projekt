@@ -67,7 +67,7 @@
 
 
 img {
-    max-height: 450px;
+    height: 450px;
 }
 
 h1 {
@@ -87,7 +87,6 @@ h1 {
     position: relative;
     display: inline-block;
     background-color:grey;
-    align-self: right;
     margin: 0% 20%;
     position: relative; left: 60%;
   }
