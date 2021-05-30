@@ -1,3 +1,7 @@
+.dropdown a {
+    color: black;
+  }
+
 table, td, th {
     border: 1px solid black;
 }
@@ -138,3 +142,5 @@ table.GeneratedTable {
       background-color: rgba(255, 255, 255, 0.541);
     }
   }
+
+

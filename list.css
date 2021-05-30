@@ -1,3 +1,6 @@
+.dropdown a {
+  color: black;
+}
 .list-image {
 
     list-style: none;
@@ -156,11 +159,12 @@
                         }
                         
                         .dropdown {
-                            position: relative;
-                            display: inline-block;
-                            background-color:grey;
-                            margin: 0% 20%;
-                          }
+                          position: relative;
+                          display: inline-block;
+                          background-color: lightblue;
+                          margin: 0% 20%;
+                          position: relative; left: 60%;
+                        }
                         
                           .dropdown-content {
                             display: none;
