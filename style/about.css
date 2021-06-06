@@ -35,6 +35,7 @@
 	display: inline-block;
 	color: white;
 	text-align: center;
+
 	padding: 14px 16px;
 }
 
@@ -62,56 +63,28 @@
 
 
 
-
-
-
-
-
-.div-content {
-	margin-left: auto;
-	margin-right: auto;
-	max-width: 50%;
-	position: relative
-}
-
-.slider-button {
-	border: none;
-	display: inline-block;
-	padding: 8px 8px;
-	vertical-align: middle;
-	overflow: hidden;
-	text-decoration: none;
-	color: white;
-	background-color: rgba(169, 169, 169, 0.103);
+h1 {
 	text-align: center;
-	cursor: pointer;
-	white-space: nowrap;
-	position: absolute;
-	top: 50%;
-	transform: translate(0%, -50%);
-	-ms-transform: translate(0%, -50%)
-}
-
-.slider-button:hover {
-	color: black;
-	background-color: grey
-}
-
-.display-left {
-	left: 0%
-}
-
-.display-right {
-	right: 0%
+	font-size: 40px;
 }
 
 img {
-	max-height: 430px
+	max-width: 500px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto
 }
 
-h1 {
+h2 {
 	text-align: center
 }
+
+p {
+	font-size: 20px;
+	text-align: center
+}
+
+
 
 
 
@@ -119,34 +92,16 @@ h1 {
 	body {
 		background-color: rgba(13, 29, 255, 0.384)
 	}
-	.div-content {
-		margin-left: auto;
-		margin-right: auto;
-		max-width: 50%;
-		position: relative
-	}
 }
 
 @media screen and (max-width: 500px) {
 	body {
 		background-color: rgba(195, 197, 59, 0.863)
 	}
-	.div-content {
-		margin-left: auto;
-		margin-right: auto;
-		max-width: 65%;
-		position: relative
-	}
 }
 
 @media screen and (max-width: 300px) {
 	body {
 		background-color: rgba(255, 255, 255, 0.541)
-	}
-	.div-content {
-		margin-left: auto;
-		margin-right: auto;
-		max-width: 80%;
-		position: relative
 	}
 }
